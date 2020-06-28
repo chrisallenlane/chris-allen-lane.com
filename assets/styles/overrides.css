@@ -1,5 +1,10 @@
 /* page overrides */
 @media screen {
+  body.about section.links ul {
+    list-style-type: none;
+    margin: 0;
+  }
+
   body.about section.links a {
 	  color: var(--color-orange);
   }
