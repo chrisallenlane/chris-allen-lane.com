@@ -1,0 +1,42 @@
+baseURL: "/"
+title: "chris-allen-lane.com"
+languageCode: "en-us"
+
+taxonomies:
+  tag: tags
+
+markup:
+  highlight:
+    style: solarized-dark
+  goldmark:
+    renderer:
+      unsafe: true
+
+publishDir: dist
+
+paginate: 5
+
+params:
+    tagline:  Technology | Security | Making
+
+permalinks:
+  tags: /blog/tag/:title
+
+deployment:
+  order:
+    - .css$
+    - .gif$
+    - .jpg$
+    - .js$
+    - .png$
+    - .svg$
+    - .webp$
+
+  targets:
+      - name: production
+        URL: "s3://chris-allen-lane.com?region=us-east-1"
+        cloudFrontDistributionID: E2Y2RK0L2GPKUA
+
+      - name: staging
+        URL: "s3://staging.chris-allen-lane.com?region=us-east-1"
+        cloudFrontDistributionID: ESFDFRTGSFD3Q

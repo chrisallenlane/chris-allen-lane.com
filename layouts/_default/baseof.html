@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>{{ .Page.Title }} | {{ .Site.Title }}</title>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width,initial-scale=1'>
+		<meta name='author'    content='Chris Allen Lane'>
+		{{ if .Description }}
+		<meta name='description' content='{{ .Description }}'> 
+		{{ end }}
+		<link rel='alternate' type='application/rss+xml' href='https://chris-allen-lane.com/index.xml'>
+		{{ partial "nextprev.html" . }}
+		{{ partial "styles.html" . }}
+	</head>
+	<body {{ with .File }}class='{{ .BaseFileName }}'{{ end }}>
+		<header>
+			<a href='/'>chris-allen-lane.com</a>
+			<span id='tagline'>{{ .Site.Params.tagline }}</span>
+		</header>
+
+		<nav>
+			<a href='/blog/'>Blog</a>
+			<a href='/archive/'>Archive</a>
+			<a href='/about/'>About</a>
+			<form method='get' action='/search/'>
+				<input id='search' type='search' placeholder='search' name='q'>
+			</form>
+		</nav>
+
+		<main>
+			{{ block "main" . }}{{ end }}
+		</main>
+
+		{{ partial "scripts.html" . }}
+	</body>
+</html>

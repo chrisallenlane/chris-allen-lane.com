@@ -1,0 +1,6 @@
+{{ if .Params.postnext }}
+<link rel='next'  href='{{ .Page.Params.postnext}}'>
+{{ end }}
+{{ if .Params.postprev }}
+<link rel='prev'  href='{{ .Page.Params.postprev}}'>
+{{ end }}

@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+  {{ range .Paginator.Pages }}
+    {{ partial "article.html" . }}
+  {{ end }}
+
+  <footer>
+    {{ if .Paginator.HasPrev }}
+    <a class='page-newer' href='{{ .Paginator.Prev.URL }}'>« Newer Posts</a>
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+    <a class='page-older' href='{{ .Paginator.Next.URL }}'>Older Posts »</a>
+    {{ end }}
+  </footer>
+
+{{ end }}

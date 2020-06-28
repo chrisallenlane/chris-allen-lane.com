@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+  <article>
+    <h1>{{ .Page.Title }}</h1>
+    <time class='pubdate' datetime='{{.PublishDate}}'>
+      {{.PublishDate.Format "2 January 2006"}}
+    </time>
+
+    {{ if .GetTerms "tags" }}
+    <p class='tags'>
+      tags: 
+      {{ range (.GetTerms "tags") }}
+      <a href='{{ .Permalink }}'>+{{ .LinkTitle }}</a>
+      {{ end }}
+    </p>
+    {{ end }}
+
+    {{ .Content }}
+  </article>
+
+{{ end }}

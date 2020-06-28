@@ -1,0 +1,64 @@
+@media print {
+  a {
+    color: var(--color-blue-light);
+  }
+
+  /*a:link:after {*/
+    /*content: " (" attr(href) ") ";*/
+    /*color: var(--color-blue-light);*/
+  /*}*/
+
+  aside {
+    border: 2px solid var(--color-gray);
+  }
+
+  aside h4 {
+    text-indent: var(--print-indent);
+  }
+
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 14pt;
+  }
+
+  h2 {
+    border-bottom: none;
+  }
+
+  img {
+    display: block;
+    margin: 0.25in auto;
+    max-height: 10in;
+    max-width: 7.5in;
+  }
+
+  nav {
+    display: none;
+  }
+
+  ol p,
+  ul p {
+    text-indent: 0;
+  }
+
+  p {
+    text-indent: var(--print-indent);
+    color: var(--color-gray-dark);
+  }
+
+  img,
+  p,
+  table {
+    page-break-inside: avoid;
+  }
+
+  .tags {
+    display: none;
+  }
+
+  time {
+    font-style: italic;
+    display: block;
+    text-indent: var(--print-indent);
+  }
+}

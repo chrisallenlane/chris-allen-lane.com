@@ -1,0 +1,7 @@
+{{ with .File}}
+  {{ if eq .BaseFileName "search" }}
+	{{ $js := resources.Get "scripts/search.js" }}
+	{{ $script := $js | resources.Minify }}
+	<script defer src='{{ $script.Permalink }}'></script>
+  {{ end }}
+{{ end }}

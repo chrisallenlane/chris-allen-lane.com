@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<h1>Archive</h1>
+<h2>Posts</h2>
+<ul class='posts'>
+	{{ range where .Site.RegularPages "Section" "blog" }}
+	<li>
+    <a href='{{ .Permalink }}'>
+      <time datetime='{{ .PublishDate }}'>{{.PublishDate.Format "2006"}}</time> -
+      {{ .Title }}
+    </a>
+	</li>
+	{{ end }}
+</ul>
+
+<h2>Tags</h2>
+<ul class='tags'>
+  {{ range $tag, $unused := .Site.Taxonomies.tags }}
+  <li><a href='/blog/tag/{{ $tag }}'>{{ $tag }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}

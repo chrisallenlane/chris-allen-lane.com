@@ -1,0 +1,2 @@
+{{ $slug := .Get 0 | urlize }}
+<h3 id='{{ $slug }}'><a class='fragment' href='#{{ $slug }}'>{{ .Get 0 }}</a></h3>

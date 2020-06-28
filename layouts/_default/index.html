@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+  {{ range where .Paginator.Pages "Section" "blog" }}
+    {{ partial "article.html" . }}
+  {{ end }}
+
+  <!-- note the `/blog/` href prefix -->
+  <footer>
+    {{ if .Paginator.HasPrev }}
+    <a class='page-newer' href='/blog{{ .Paginator.Prev.URL }}'>« Newer Posts</a>
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+    <a class='page-older' href='/blog{{ .Paginator.Next.URL }}'>Older Posts »</a>
+    {{ end }}
+  </footer>
+
+{{ end }}

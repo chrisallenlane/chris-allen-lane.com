@@ -1,0 +1,13 @@
+{{ $reset   := resources.Get "styles/reset.css" }}
+{{ $all     := resources.Get "styles/all.css" }}
+{{ $screen  := resources.Get "styles/screen.css" }}
+{{ $tables  := resources.Get "styles/tables.css" }}
+{{ $desktop := resources.Get "styles/desktop.css" }}
+{{ $mobile  := resources.Get "styles/mobile.css" }}
+{{ $overs   := resources.Get "styles/overrides.css" }}
+{{ $print   := resources.Get "styles/print.css" }}
+
+{{ $styles  := slice $reset $all $screen $tables $desktop $mobile $overs $print }}
+
+{{ $bundle  := $styles | resources.Concat "styles/app.css" | resources.Minify }}
+<link rel='stylesheet' href='{{ $bundle.Permalink }}'>

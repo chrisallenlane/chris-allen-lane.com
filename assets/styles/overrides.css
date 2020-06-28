@@ -1,0 +1,24 @@
+/* page overrides */
+@media screen {
+  body.about section.links a {
+	  color: var(--color-orange);
+  }
+
+  body.archive ul {
+    list-style-type: none;
+    margin: 0 0 1rem 0;
+  }
+
+  body.archive ul.posts li a {
+    display: block;
+  }
+
+  body.archive ul.posts li a time {
+    color: var(--color-white-soft);
+  }
+
+  body.archive ul.tags li a {
+    color: var(--color-orange);
+    display: block;
+  }
+}

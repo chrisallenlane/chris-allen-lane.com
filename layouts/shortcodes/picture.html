@@ -1,0 +1,30 @@
+{{ $parts := split (.Get "src") "." }}
+{{ $stem  := index $parts 0 }}
+{{ $ext   := index $parts 1 }}
+
+{{ $lg := 650 }}
+{{ $md := 500 }}
+{{ $sm := 400 }}
+
+<a href='{{ .Get "src" }}'><picture>
+	<!-- webp (preferred) -->
+	<source type="image/webp" media="(min-width: 800px)" srcset="{{ $stem }}-{{ $lg }}w.webp"> 
+	<source type="image/webp" media="(min-width: 600px)" srcset="{{ $stem }}-{{ $md }}w.webp"> 
+	<source type="image/webp" srcset="{{ $stem }}-{{ $sm }}w.webp"> 
+
+	<!-- png -->
+	{{ if eq $ext "png" }}
+	<source type="image/png"  media="(min-width: 800px)" srcset="{{ $stem }}-{{ $lg }}w.png">
+	<source type="image/png"  media="(min-width: 600px)" srcset="{{ $stem }}-{{ $md }}w.png">
+	<source type="image/png"  srcset="{{ $stem }}-{{ $sm }}w.png">
+	{{ end }}
+
+	<!-- jpg -->
+	{{ if eq $ext "jpg" }}
+	<source type="image/jpg"  media="(min-width: 800px)" srcset="{{ $stem }}-{{ $lg }}w.jpg">
+	<source type="image/jpg"  media="(min-width: 600px)" srcset="{{ $stem }}-{{ $md }}w.jpg">
+	<source type="image/jpg"  srcset="{{ $stem }}-{{ $sm }}w.jpg">
+	{{ end }}
+
+	<img src="{{ .Get "src"}}" alt="{{ .Get "alt"}}" title="{{ .Get "title"}}">
+</picture></a>

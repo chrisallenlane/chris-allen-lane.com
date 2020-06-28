@@ -1,0 +1,13 @@
+@media (max-width: 550px) {
+  body.archive li {
+    margin-bottom: 1rem;
+  }
+
+  nav a {
+    min-width: 100%;
+  }
+
+  #tagline {
+    display: none;
+  }
+}

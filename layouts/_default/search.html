@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+  <h1>Search</h1>
+
+	{{ range where .Site.RegularPages "Section" "blog" }}
+  {{ $keywords := sort (union .Params.tags .Params.keywords) }}
+  <article style='display: none' data-keywords='{{- delimit $keywords " " }}'>
+      <h1><a class='block' href='{{ .Permalink }}'>{{ .Title }}</a></h1>
+
+      <time class='pubdate' datetime='{{.PublishDate}}'>
+        {{.PublishDate.Format "2 January 2006"}}
+      </time>
+
+      <div class='summary'>
+        {{ .Summary }}
+      </div>
+
+      {{ if .Truncated }}
+      <a class='block' href='{{ .RelPermalink }}'>Read More</a>
+      {{ end }}
+  </article>
+	{{ end }}
+
+  <p id='no-matches'>Your search matched no articles.</p>
+{{ end }}

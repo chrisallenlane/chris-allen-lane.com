@@ -1,0 +1,21 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Christopher Allen Lane
+N:Lane;Christopher;Allen;;
+PHOTO:https://chris-allen-lane.com/images/chrisallenlane.jpg
+ORG:Lane Technical, LLC
+TITLE:Owner / Technology Consultant
+EMAIL;TYPE=INTERNET:chris@chris-allen-lane.com
+EMAIL;TYPE=INTERNET;TYPE=WORK:chris@lane-technical.com
+item1.ADR:;;;Gainesville;FL;32653;US
+item1.X-ABLabel:
+item2.ORG:Lane Technical\, LLC
+item2.X-ABLabel:
+item3.TITLE:Owner / Technology Consultant
+item3.X-ABLabel:
+item4.URL:https://chris-allen-lane.com
+item4.X-ABLabel:BLOG
+URL:https://chris-allen-lane.com
+URL;TYPE=WORK:https://lane-technical.com
+NOTE:Owner / Technology Consultant at Lane Technical\, LLC.
+END:VCARD

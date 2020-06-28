@@ -1,0 +1,71 @@
+@media screen {
+  caption {
+    caption-side: bottom;
+    color: var(--color-gray);
+    font-size: x-small;
+    text-align: left;
+  }
+
+  caption a {
+    color: var(--color-gray);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+
+  caption a:hover {
+    text-decoration-style: solid;
+  }
+
+  caption ol, caption ul {
+    list-style-position: inside;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  table {
+    color: var(--color-white-soft);
+    background-color: var(--color-blue-darker);
+    border-collapse: collapse;
+    margin: 2rem auto;
+    min-width: 50%;
+  }
+
+  table:not(.no-highlight) tbody tr:hover td {
+    color: var(--color-blue-darkest);
+    background-color: var(--color-white);
+  }
+
+  table:not(.no-highlight) tbody tr:hover td a,
+  table:not(.no-highlight) tbody tr:hover td sup {
+    color: var(--color-blue-darkest);
+  }
+
+  tbody tr td {
+    padding: 0 1rem;
+  }
+
+  tbody tr td del {
+    color: var(--color-gray-dark);
+    text-decoration: none;
+  }
+
+  td, th {
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  td sup, th sup {
+    font-weight: normal;
+    color: var(--color-gray);
+  }
+
+  tfoot td {
+    font-weight: bold;
+    padding: 0 1rem;
+  }
+
+  thead th {
+    background-color: var(--color-blue-darkest);
+    padding: 0 1rem;
+  }
+}

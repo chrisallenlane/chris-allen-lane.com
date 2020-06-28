@@ -1,0 +1,17 @@
+@media screen and (min-width: 1000px) {
+  header {
+    margin-bottom: 1rem;
+  }
+
+  nav a {
+    margin: 0 1rem 0 0;
+    text-align: left;
+    text-indent: 1rem;
+  }
+
+  nav a:hover {
+    background-color: var(--color-blue-light);
+    color: var(--color-blue-dark);
+    text-decoration: none;
+  }
+}

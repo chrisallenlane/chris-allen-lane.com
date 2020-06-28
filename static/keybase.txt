@@ -1,0 +1,79 @@
+https://keybase.io/chrisallenlane
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://chris-allen-lane.com
+  * I am chrisallenlane (https://keybase.io/chrisallenlane) on keybase.
+  * I have a public key with fingerprint 7B55 E9E4 C286 BA99 AA99  1997 BC3A 2A59 8835 1AF4
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.0"
+        },
+        "key": {
+            "fingerprint": "7b55e9e4c286ba99aa991997bc3a2a5988351af4",
+            "host": "keybase.io",
+            "key_id": "BC3A2A5988351AF4",
+            "uid": "2ccac9304211e2c178ad1b2f148a2e00",
+            "username": "chrisallenlane"
+        },
+        "merkle_root": {
+            "ctime": 1401053566,
+            "hash": "47279a4e90f73124ba2b3ea701c8a492f6b7f87b59fa7e95fd601dfd212eb770afefb14f19f814cda64a2293b563ae685da77171b043a9a122e6dd4d221c7f58",
+            "seqno": 11776
+        },
+        "service": {
+            "hostname": "chris-allen-lane.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1401053661,
+    "expire_in": 157680000,
+    "prev": "c38b17db05da58b9a0f5fb1c487235e4a6961bfcc4fc76b58f4ecf14148a3692",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+owFVkg9MVVUcx98DpCRKBdMWpHhFCCave879Dy1DFpQRYRGMrXqce++5cPG9+/C+
+Bwr6hKAQRMx/Mc0af1xJ/lkLTC2c4kSdukIxRUEwt9YCZKLT0AdJ9zJaere73T+f
+3/d8v+d7Nj/rb/GzHo2Pza5iXrxnPT8gWt4vR31rCNElFxPxawjJoWLNYz5pyImJ
+eGIFLhaRG9tUV4TmkrEt3x0xxSwmirDuVl2aQZE22kYS3sUmbg4rqpaL9QJdNbUI
+TmQYLGBagjwrIkFAxg0EgRMlCkHECDxPMQAptCGZ53J7nliVmNS0q7LxdWkSlQgT
+p/jEZJMvnPwBJQlJAkXSEAAMJcDxSAYiVADNI4hJ0gTdWJ+KJOXpqhs5HFhzIA2b
+rp1YX+HAdt3lmowueVQTBDQJSIZiWNbwhdx5xijNQU5ANBZIhaMApEUERQojjgQS
+j2gBKqzIKbyRV1AQhwVGkVkSyIoMAcQix5FIwYoIaAUICg9oSUYsjSAUKJFhKYRZ
+npERxwEOiCRNIQEBCDEry7QMIZA4heGNIG68UnMZ5gDHsV7zVS9SJWzaNvfu8Yhx
+kxnjzJA2yeU0Zgt0l8cluRwGkefxFLjjiTZDwlNcYM6swqJ9Ss0uqppsVPh4x8Ag
+n9wYlgWLCby6QNWxXTUJhmN50rjMhXCRaYPiRcDJImnkYnhRQKTCGPklmucgxWAa
+sQILREWSaEXiWJHhFRpLRmtmbxQrwP/j0oZNlGtIutVcDXkKdaO3ar/wAIvVzxI4
+zc88xJag6TP/O9kamjH+dM2B3qTyjbmZ5fX3r3336LJ917xNldn1PflrZzbf9j0D
+UOs62tbkPHGwbF/GvLuBb9zMPgOllIXtl7Z0RB247u3vHe7N/nDnS92F0bVzO7an
+huYHv5vcIJWHXA3IKayOWltafZfe8enowkfbh6fHCofqSvWwfdeCrry80Zl+ptyX
+kf7Lx9Tgm6CvJqKj7eRY7Z0dBUP/9AyNH5k9o8x6ryp5IGRBcs21274WqT2ja/PJ
+Ocvshzt/9bxypb5nYsNBS/iWyJ5j2sjbkcfniEtaY7ptMc0p91JzQptvNX4btvS3
+MfL8N5kJnh+9dafSfGdT9trm917Go/QhG7ywqcNSYwt35lR1/jkS2+csmfHXgu93
++66XHVly63gK2xUYF7T/84udRObZECI77u9zhyeyaurbb3jbU0e3TlQ83Fu1S3lu
+XYA41NqUzlJKgjByaTgCdugjwXcGzlgfxC462tJ8/63dJefa5oafCurK+GxNQqB9
+dLlft39a6Oqq1b3524oajnI/19qPLb/4auOious3fTf2l2QEWO1f+h7MGv+6osIZ
+td7qm/XBV51/5J38qatpT/O04P7ojrzTIytfqNnY8MWe+Xj2lR/artYXeYPYNP9V
+kSWfJFWVbst5OPx8X8tTl95b9s5Hvzt3DhZXRjcGxbx+4sTpc4FisCMr7rULif2V
+3qwAbTCDyXGEXd26YazuXw==
+=x8IB
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chrisallenlane
