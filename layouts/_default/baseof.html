@@ -11,6 +11,7 @@
 		<link rel='alternate' type='application/rss+xml' href='https://chris-allen-lane.com/index.xml'>
 		{{ partial "nextprev.html" . }}
 		{{ partial "styles.html" . }}
+    <script>/* prevent FOUC in Firefox */</script>
 	</head>
 	<body {{ with .File }}class='{{ .BaseFileName }}'{{ end }}>
 		<header>
