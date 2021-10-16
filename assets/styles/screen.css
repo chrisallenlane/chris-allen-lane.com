@@ -60,7 +60,7 @@
     background-color: var(--color-blue-dark);
     color: var(--color-gray-light);
     font-family: verdana, arial, sans-serif;
-    font-size: 11pt;
+    font-size: 12pt;
     max-width: var(--width-body);
     padding: 2rem;
   }
@@ -159,7 +159,7 @@
     background-color: var(--color-blue-darkest);
     border: none;
     color: var(--color-white-soft);
-    font-size: 11pt;
+    font-size: 12pt;
     line-height: 2rem;
     min-width: 100%;
     padding: 0 1rem;
