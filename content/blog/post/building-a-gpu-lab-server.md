@@ -2,6 +2,7 @@
 title: Building a GPU Lab Server (Work-in-Progress)
 description: A brief look at a GPU lab server that I'm building for my homelab.
 date: 2021-10-15
+image: /images/gpu-lab-chassis-2.jpg
 tags:
   - diy
   - gpu
