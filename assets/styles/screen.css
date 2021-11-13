@@ -60,7 +60,7 @@
     background-color: var(--color-blue-dark);
     color: var(--color-gray-light);
     font-family: verdana, arial, sans-serif;
-    font-size: 12pt;
+    font-size: 14pt;
     max-width: var(--width-body);
     padding: 2rem;
   }
@@ -105,16 +105,15 @@
   }
 
   header {
-    border-bottom: 1px dotted var(--color-gray-dark);
+    /*border-bottom: 1px dotted var(--color-gray-dark);*/
     color: var(--color-white);
-    display: flex;
-    font-size: 10pt;
+    font-size: 12pt;
     letter-spacing: 1px;
+    text-align: center;
   }
 
   header a {
     color: var(--color-white);
-    flex: 1;
   }
 
   html {
@@ -124,7 +123,7 @@
   nav {
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem 0;
+    margin: 2rem 0;
   }
 
   nav a {
@@ -139,7 +138,7 @@
 
   p.tags {
     color: var(--color-gray);
-    font-size: small;
+    font-size: medium;
   }
 
   p.tags a {
@@ -163,10 +162,5 @@
     line-height: 2rem;
     min-width: 100%;
     padding: 0 1rem;
-  }
-
-  #tagline {
-    text-align: right;
-    flex: 1;
   }
 }

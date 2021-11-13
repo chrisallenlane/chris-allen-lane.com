@@ -11,6 +11,8 @@ layout: page
   src='/images/chrisallenlane.jpg'
   alt='A headshot of Chris Allen Lane at DEFCON 25.'>
 
+{{< h2 "About">}}
+
 I’m a software engineer with expertise in full-stack web development, systems
 programming, and webapp pentesting. I have also taught in both the public and
 private sectors.

@@ -2,7 +2,7 @@
   caption {
     caption-side: bottom;
     color: var(--color-gray);
-    font-size: x-small;
+    font-size: 10pt;
     text-align: left;
   }
 
@@ -28,6 +28,7 @@
     border-collapse: collapse;
     margin: 2rem auto;
     min-width: 50%;
+    font-size: 12pt;
   }
 
   table:not(.no-highlight) tbody tr:hover td {

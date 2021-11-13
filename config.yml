@@ -17,7 +17,6 @@ publishDir: dist
 paginate: 5
 
 params:
-    tagline:  Technology | Security | Making
 
 permalinks:
   tags: /blog/tag/:title

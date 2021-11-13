@@ -1,5 +1,4 @@
 :root {
-
   --color-blue-light   : #99cbf4;
   --color-blue-dark    : #0b3f6a;
   --color-blue-darker  : #0a385e;
@@ -15,7 +14,7 @@
   --color-white        : white;
 
   --print-indent       : 0.5in;
-  --width-body         : 900px;
+  --width-body         : 800px;
 }
 
 /* all media */
@@ -37,6 +36,7 @@
 
   code {
     font-family: monospace;
+    font-size: 11pt;
   }
 
   footer {
@@ -68,6 +68,7 @@
   pre {
     margin-bottom: 1rem;
     padding: 1rem;
+    line-height: 1.25;
   }
 
   .round {
