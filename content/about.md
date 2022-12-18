@@ -49,6 +49,7 @@ projects. Please drop by and say "hi" if that sounds fun.
 <li><a rel='me' href='https://github.com/chrisallenlane'>github</a></li>
 <li><a rel='me' href='https://defcon.social/@chrisallenlane'>mastodon</a></li>
 <li><a rel='me' href='https://www.twitch.tv/mudbound_dragon'>twitch</a></li>
+<li><a rel='me' href='https://mudbound-dragon.itch.io/'>itch.io</a></li>
 <li><a rel='me' href='https://www.youtube.com/user/chrisallenlane'>youtube</a></li>
 <li><a rel='me' href='https://www.linkedin.com/in/chrisallenlane'>linkedin</a></li>
 <li><a rel='me' href='https://setiathome.berkeley.edu/show_user.php?userid=8696231'>seti@home</a></li>
