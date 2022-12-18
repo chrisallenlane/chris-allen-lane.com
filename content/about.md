@@ -52,7 +52,7 @@ projects. Please drop by and say "hi" if that sounds fun.
 <li><a rel='me' href='https://www.youtube.com/user/chrisallenlane'>youtube</a></li>
 <li><a rel='me' href='https://www.linkedin.com/in/chrisallenlane'>linkedin</a></li>
 <li><a rel='me' href='https://setiathome.berkeley.edu/show_user.php?userid=8696231'>seti@home</a></li>
-<li><a rel='alternate' type='application/rss+xml'href='/index.xml/'>rss</a></li>
+<li><a rel='alternate' type='application/rss+xml'href='/index.xml'>rss</a></li>
 </ul>
 </section>
 
