@@ -45,15 +45,13 @@ projects. Please drop by and say "hi" if that sounds fun.
 
 <section class='links'>
 <ul>
-<li><a rel='me' href='https://www.linkedin.com/in/chrisallenlane'>linkedin</a></li>
 <li><a rel='me' href='https://keybase.io/chrisallenlane'>keybase.io</a></li>
 <li><a rel='me' href='https://github.com/chrisallenlane'>github</a></li>
-<li><a rel='me' href='http://stackoverflow.com/story/chrisallenlane'>stack exchange</a></li>
-<li><a rel='me' href='https://setiathome.berkeley.edu/show_user.php?userid=8696231'>seti@home</a></li>
-<li><a rel='me' href='http://www.youtube.com/user/chrisallenlane'>youtube</a></li>
-<li><a rel='me' href='https://twitter.com/chrisallenlane'>twitter</a></li>
+<li><a rel='me' href='https://defcon.social/@chrisallenlane'>mastodon</a></li>
 <li><a rel='me' href='https://www.twitch.tv/mudbound_dragon'>twitch</a></li>
-<li><a rel='me' href='https://www.npmjs.com/~chrisallenlane'>npm</a></li>
+<li><a rel='me' href='https://www.youtube.com/user/chrisallenlane'>youtube</a></li>
+<li><a rel='me' href='https://www.linkedin.com/in/chrisallenlane'>linkedin</a></li>
+<li><a rel='me' href='https://setiathome.berkeley.edu/show_user.php?userid=8696231'>seti@home</a></li>
 <li><a rel='alternate' type='application/rss+xml'href='/index.xml/'>rss</a></li>
 </ul>
 </section>
@@ -61,7 +59,7 @@ projects. Please drop by and say "hi" if that sounds fun.
 {{< h2 "Contact">}}
 
 
-[@chrisallenlane][twitter] (deprecated)
+[@chrisallenlane@defcon.social][mastodon]
 
 [chris@chris-allen-lane.com][mail]
 
@@ -85,6 +83,6 @@ projects. Please drop by and say "hi" if that sounds fun.
 [gpg]:      https://keybase.io/chrisallenlane/pgp_keys.asc?fingerprint=82e71a7bed0a3ccccc20e0ecf060e19ee78edb05  
 [lt]:       https://lane-technica.com
 [mail]:     mailto:chris@chris-allen-lane.com
+[mastodon]: https://defcon.social/@chrisallenlane
 [twitch]:   https://www.twitch.tv/mudbound_dragon
-[twitter]:  https://twitter.com/chrisallenlane
 [zce]:      http://www.zend.com/en/yellow-pages/ZEND010695
